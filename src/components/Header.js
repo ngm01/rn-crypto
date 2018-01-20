@@ -12,7 +12,7 @@ const Header = () => {
 const styles = StyleSheet.create({
     headerContainer: {
         display: 'flex',
-        marginTop: 0,
+        marginTop: 55,
         alignItems: 'center',
     },
     header: {

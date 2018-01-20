@@ -10,7 +10,7 @@ export default class App extends React.Component {
       //"The Provider accepts one argument — which is our store. 
       //The Provider role is to glue React and Redux together."
       <Provider store={Store}>
-      <View style={styles.container}>
+      <View>
         <Header />
         <CryptoContainer />
       </View>
@@ -19,12 +19,12 @@ export default class App extends React.Component {
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'column',
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     flexDirection: 'column',
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   }
+// });
